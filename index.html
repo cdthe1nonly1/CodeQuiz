@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <!-- this is creating the card to hold all itmes -->
+    <section class="card">
+      <header id="intro" class="intro">
+        <h1>Quiz</h1>
+        <p>Press start to test your knowledge</p>
+      </header>
+      <!-- this is area for questions and answers -->
+      <div id="question-area" class="hide">
+        <div id="questions">Question</div>
+        <ul id="answers" class="answerGrid">
+          <li class="answer">Answer 1</li>
+          <li class="answer">Answer 2</li>
+          <li class="answer">Answer 3</li>
+          <li class="answer">Answer 4</li>
+        </ul>
+      </div>
+      <!-- this is area for start button and if answer was answered incorrectly or correctly -->
+      <section class="controls">
+        <button id="startButton" class="startButton">Start</button>
+
+        <!-- paragraph section for if question was answered correctly or incorrectly -->
+        <p id="correctAnswer" class="correctAnswer hide">"Correct!!"</p>
+        <p id="incorrectAnswer" class="incorrectAnswer hide">
+          "You are incorrect."
+        </p>
+      </section>
+    </section>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

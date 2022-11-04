@@ -40,7 +40,7 @@ var questionsArr = [
 //create a start button event listener
 startBtn.addEventListener("click", startGame);
 
-// event listner for answers
+// event listner for answer clicks
 ans0CLick.addEventListener("click", clickOnAnswer);
 ans1CLick.addEventListener("click", clickOnAnswer);
 ans2CLick.addEventListener("click", clickOnAnswer);
@@ -53,7 +53,7 @@ function startGame() {
   questionAreaElement.classList.remove("hide");
   goToNextQuestion();
 }
-
+//replaces the questions with items from quetions array
 function goToNextQuestion() {
   var title = document.getElementById("questions");
   var answerOne = document.getElementById("ans0");
@@ -71,6 +71,10 @@ function goToNextQuestion() {
 
 function clickOnAnswer() {
   console.log("test click on answer function");
+  if ((currentQuestion.choices = currentQuestion.answer));
+  {
+    console.log("correct Answer");
+  }
 }
 
 //function setNextQuestion() {}

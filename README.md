@@ -12,9 +12,11 @@ Create a Quiz site that keeps score.
 
 # Links
 
-link to page:
+link to page: https://cdthe1nonly1.github.io/CodeQuiz/
 
 # Images
+
+![Image of webpage](./assets/images/QuizScreenShot.png)
 
 # Usage
 
